@@ -1,1 +1,98 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+html{
+    font-size: 62.5%
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    background-color: #FBFFFB;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+nav{
+    
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    font-size: 1.4rem;
+    padding: .5% 2%;
+    border: 2px solid grey;
+    background-color: #FBFFFB;
+    color: black;
+    margin: 0 1%;
+}
+header{
+    background-color: lightblue;
+}
+.primary{
+    display:flex;
+}
+.bigpic{
+    width:50%;
+    display: flex;
+    justify-content: center;
+
+}
+.bigpic img{
+    width: 60%;
+    padding: 2%;
+}
+.about{
+    width:50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0 6%;
+}
+.about h2{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+.about button{
+    padding: 1% 5%;
+    font-size: 1.5rem;
+    background-color: #FBFFFB;
+    border: 2px solid grey;
+    margin-bottom: 4%;
+}
+
