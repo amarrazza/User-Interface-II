@@ -1,1 +1,144 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    
+    
+    
+}
+html{
+    font-size: 62.5%
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    background-color: #FBFFFB;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1{
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 3%;
+}
+nav{
+    
+    margin: 1% 5%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+nav a{
+    font-size: 1.4rem;
+    padding: .5% 2%;
+    border: 2px solid grey;
+    background-color: #FBFFFB;
+    color: black;
+    margin: 0 0;
+}
+header{
+    background-color: lightgray;
+}
+.primary{
+    display:flex;
+}
+.bigpic{
+    width:50%;
+    display: flex;
+    justify-content: center;
+
+}
+.bigpic img{
+    width: 60%;
+    border: 4px solid gray;
+    margin: 2% 0;
+}
+.about{
+    width:50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0 6%;
+}
+.about h2{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+.about button{
+    padding: 1% 5%;
+    font-size: 1.5rem;
+    background-color: #FBFFFB;
+    border: 2px solid grey;
+    margin-bottom: 4%;
+}
+.about p{
+    margin-right: 10%;
+}
+.secondary{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+
+}
+.nft{
+    width: 22%;
+    margin-bottom: 3%;
+    
+}
+.nft img{
+    border: 3px solid gray;
+}
+.nft p{
+    text-align: center
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0;
+    background-color: lightgray;
+}
+footer h2{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+footer a{
+    width: 20%;
+    text-align: center;
+}
+footer button{
+    padding: 5% 20%;
+    background-color: #FBFFFB;
+    border: 2px solid grey;
+}
