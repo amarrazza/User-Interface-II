@@ -48,14 +48,15 @@ body{
 
 h1{
     font-size: 5rem;
-    text-align: center;
+    text-align: left;
+    margin-left: 3%;
     
 }
 nav{
     
     margin: 1% 5%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 2%;
 }
 nav a{
@@ -71,18 +72,17 @@ header{
 }
 .primary{
     display:flex;
-    flex-flow: column wrap;
-    align-items: center;
+    padding-bottom: 4%;
+
 }
 .bigpic{
-    width:90%;
+    width: 50%;
     display: flex;
     justify-content: center;
 
 }
 .bigpic img{
-    width: 90%;
-    height: 90vh;
+    width: 60%;
     border: 4px solid gray;
     margin: 2% 0;
 }
